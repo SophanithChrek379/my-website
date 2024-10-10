@@ -1,0 +1,263 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeHeight {
+  0% {
+    opacity: 0;
+    height: 0%;
+    transition: 0.25s all ease;
+  }
+  100% {
+    height: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInToTop {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 180px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInToTopImage {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 200px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+  }
+}
+
+@keyframes fadeInToTopContainer {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 150px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+  }
+}
+
+@keyframes fadeInLongToTopContainer {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 250px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+  }
+}
+
+@keyframes zoomInImage {
+  0% {
+    transform: scale3d(0.5, 0.5, 0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px px) scale3d(1, 1, 1) rotateX(0deg)
+      rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 100%);
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.ks_animation_section_1 .fade_in_navbar,
+.fade_in_navbar {
+  animation: 1.45s ease-out 0s fadeIn !important;
+}
+
+.ks_animation_section_1 .fade_in_text_17,
+.fade_in_text_17 {
+  animation: 0.55s ease-out 0s fadeInToTop !important;
+}
+
+.ks_animation_section_1 .fade_in_text_171,
+.fade_in_text_171 {
+  animation: 0.65s ease-out 0s fadeInToTop !important;
+}
+
+.ks_animation_section_1 .fade_in_ks_button_23,
+.fade_in_ks_button_23 {
+  animation: 0.75s ease-out 0s fadeInToTop !important;
+}
+
+.ks_animation_section_1 .fade_in_main_image,
+.fade_in_main_image {
+  animation: 1.5s ease-out 0s fadeInToTopImage !important;
+}
+
+.ks_animation_section_2 .fade_in_title_sub_section,
+.fade_in_title_sub_section {
+  animation: 0.5s ease-out 0s fadeInToTop !important;
+}
+
+.ks_animation_section_2 .fade_in_div_block_7,
+.fade_in_div_block_7 {
+  animation: 0.75s ease-out 0s fadeInToTop !important;
+}
+
+.ks_animation_section_3 .fade_section_title,
+.fade_section_title {
+  animation: 0.5s ease-out 0s fadeInToTop !important;
+}
+
+.ks_animation_section_3 .fade_in_frame_5441,
+.fade_in_frame_5441 {
+  animation: 0.55s ease-out 0s fadeInToTopContainer !important;
+}
+
+.ks_animation_section_4 .fade_in_section_title_2,
+.fade_in_section_title_2 {
+  animation: 0.5s ease-out 0s fadeInToTop !important;
+}
+
+.ks_animation_section_4 .fade_in_frame_5445,
+.fade_in_frame_5445 {
+  animation: 0.75s ease-out 0s fadeInToTop !important;
+}
+
+.ks_animation_section_4 .zoom_in_image,
+.zoom_in_image {
+  animation: 0.75s ease-out 0s zoomInImage !important;
+}
+
+.ks_animation_section_5 .fade_in_section_title_3,
+.fade_in_section_title_3 {
+  animation: 0.5s ease-out 0s fadeInToTop !important;
+}
+
+.ks_animation_section_5 .fade_in_frame_5446,
+.fade_in_frame_5446 {
+  animation: 0.65s ease-out 0s fadeInToTopContainer !important;
+}
+
+.ks_animation_section_6 .fade_in_section_title_4,
+.fade_in_section_title_4 {
+  animation: 0.5s ease-out 0s fadeInToTop !important;
+}
+
+.ks_animation_section_6 .zoom_in_basic_box,
+.zoom_in_basic_box {
+  animation: 0.75s ease-out 0s zoomInImage !important;
+}
+
+.ks_animation_section_6 .zoom_in_standard_box,
+.zoom_in_standard_box {
+  animation: 0.75s ease-out 0s zoomInImage !important;
+}
+
+.ks_animation_section_6 .zoom_in_frame_5445,
+.zoom_in_frame_5445 {
+  animation: 0.75s ease-out 0s zoomInImage !important;
+}
+
+.ks_animation_section_6 .fade_in_frame_2401,
+.fade_in_frame_2401 {
+  animation: 0.75s ease-out 0s fadeInLongToTopContainer !important;
+}
+
+.ks_animation_frame_3875 .fade_in_frame_3875,
+.fade_in_frame_3875 {
+  animation: 0.65s ease-out 0s fadeInToTopContainer !important;
+}
+
+.ks_animation_block_41 .fade_in_div_block_41,
+.fade_in_div_block_41 {
+  animation: 0.75s ease-out 0s fadeInToTopContainer !important;
+}
+
+.ks_animation_block_41 .fade_in_div_block_41_text,
+.fade_in_div_block_41_text {
+  animation: 0.75s ease-out 0s fadeInToTopContainer !important;
+}
+
+.ks_animation_section_7 .fade_in_frame_5475,
+.fade_in_frame_5475 {
+  animation: 0.75s ease-out 0s zoomInImage !important;
+}
+
+.ks_animation_section_7 .fade_in_image_24,
+.fade_in_image_24 {
+  animation: 0.75s ease-out 0s fadeInLongToTopContainer !important;
+}
+
+.ks_animation_main_footer .fade_frame_image_3878,
+.fade_frame_image_3878 {
+  animation: 1.5s ease-out 0s fadeIn !important;
+}
+
+.ks_animation_main_footer .fade_frame_5469_text,
+.fade_frame_5469_text {
+  animation: 0.5s ease 0s fadeIn !important;
+}
+
+.ks_animation_main_footer .fade_frame_5470,
+.fade_frame_5470 {
+  animation: 1.5s ease 0s fadeIn !important;
+}
+
+.ks_animation_main_footer .fade_frame_5471,
+.fade_frame_5471 {
+  animation: 3s ease 0s fadeIn !important;
+}
+
+.ks_animation_main_footer .fade_in_frame_5472,
+.fade_in_frame_5472 {
+  animation: 1s ease-out 0s fadeInToTopContainer !important;
+}
+
+.ks_animation_main_footer .zoom_in_frame_5473,
+.zoom_in_frame_5473 {
+  animation: 0.85s ease-out 0s zoomInImage !important;
+}
