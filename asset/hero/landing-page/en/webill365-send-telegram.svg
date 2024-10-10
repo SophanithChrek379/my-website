@@ -1,0 +1,15 @@
+<svg width="116" height="97" viewBox="0 0 116 97" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.832031" y="23" width="51" height="74" rx="9" fill="url(#paint0_radial_4419_6806)" style=""/>
+<path d="M87.8082 93C85.8876 93 84.4471 92.1304 82.1773 90.087L69.9681 79.1716C67.4016 76.8771 64.0797 75.6087 60.6371 75.6087H37.6971C24.5146 75.6087 16.832 67.8696 16.832 54.8696V20.8261C16.832 7.78261 24.5146 0 37.6971 0H94.9233C108.149 0 115.832 7.78261 115.832 20.8261V54.8696C115.832 67.913 107.844 75.6087 95.4035 75.6087V75.6087C93.6195 75.6087 92.1733 77.0549 92.1733 78.8389V88.087C92.1733 91.087 90.5146 93 87.8082 93Z" fill="url(#paint1_radial_4419_6806)" style=""/>
+<path d="M99.6992 19.5504L92.6815 52.6458C92.152 54.9816 90.7713 55.5628 88.8091 54.4627L78.1165 46.5831L72.9572 51.5455C72.3865 52.1164 71.9088 52.594 70.8084 52.594L71.5765 41.7039L91.3942 23.7963C92.2558 23.0281 91.2074 22.6024 90.055 23.3707L65.5555 38.7971L55.0082 35.496C52.7139 34.7796 52.6725 33.2016 55.4856 32.1013L96.7405 16.2077C98.6505 15.4914 100.322 16.6332 99.6992 19.5504Z" fill="#FEE9D6" style="fill:#FEE9D6;fill:color(display-p3 0.9961 0.9137 0.8392);fill-opacity:1;"/>
+<defs>
+<radialGradient id="paint0_radial_4419_6806" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(51.6654 56.4193) rotate(-180) scale(51)">
+<stop stop-color="#0F1FEA" style="stop-color:#0F1FEA;stop-color:color(display-p3 0.0588 0.1216 0.9176);stop-opacity:1;"/>
+<stop offset="0.758958" stop-color="#8EB6FF" style="stop-color:#8EB6FF;stop-color:color(display-p3 0.5569 0.7137 1.0000);stop-opacity:1;"/>
+</radialGradient>
+<radialGradient id="paint1_radial_4419_6806" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(35.332 61) rotate(90) scale(91 96.871)">
+<stop stop-color="#F65F19" style="stop-color:#F65F19;stop-color:color(display-p3 0.9647 0.3725 0.0980);stop-opacity:1;"/>
+<stop offset="0.758958" stop-color="#F87D39" style="stop-color:#F87D39;stop-color:color(display-p3 0.9725 0.4902 0.2235);stop-opacity:1;"/>
+</radialGradient>
+</defs>
+</svg>
